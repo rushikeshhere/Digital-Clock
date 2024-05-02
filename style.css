@@ -34,6 +34,7 @@ h1 {
     width: 100px;
     height: 80px;
     background-color: hsl(35, 86%, 48%);
+    border-radius: 4px;
     opacity: 0.8;
     color: whitesmoke;
     display: flex;
