@@ -15,7 +15,7 @@ function updateClock() {
     hoursEl.innerText = h;
     minuteEl.innerText = m;
     secondEl.innerText = s;
-    document.getElementById("ampm").textContent = h > 12 ? "PM" : "AM"
+    document.getElementById("ampm").textContent = h >= 12 ? "PM" : "AM"
     setTimeout(() => {
         updateClock()
     }, 1000);
